@@ -1,0 +1,31 @@
+{
+    "name": "teamonetickets/sluggo",
+    "type": "library",
+    "description": "Makes URL slugs out of text strings.",
+    "keywords": ["library", "Team One Tickets", "slug", "urlize"],
+    "homepage": "https://github.com/TeamOneTickets/Sluggo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "J Cobb"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+    "autoload": {
+        "psr-0": { "Sluggo": "vendor/" }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "support": {
+        "issues": "https://github.com/TeamOneTickets/Sluggo/issues",
+        "wiki": "https://github.com/TeamOneTickets/Sluggo/wiki",
+        "source": "https://github.com/TeamOneTickets/Sluggo"
+    }
+}
